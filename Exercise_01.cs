@@ -122,13 +122,17 @@
     }
     static void baitap_02()
     {
-
-        int a = 5, b = 3;
-        Console.WriteLine($"Before swap a=,b= ");
-        int teep = a;
-        a = b;
-        b = teep;
-        Console.WriteLine($"After swap a=, b= ");
+        Console.WriteLine("Enter a":);
+        int a= Convert.ToInt 32(Console.ReadLine());
+        Console.Write("Enter b:");
+        int b = Convert.ToInt32(Console.ReadLine());
+        a =a+b;
+        b =b-a;
+        a =a-b;
+        Console.WriteLine ('After swapping");
+        Console.WriteLine("New value of a is:" +a);
+        Console.WriteLine("New value of b is: "+b);
+        Console.ReadLine();
     }
     static void baitap_01()
     {
